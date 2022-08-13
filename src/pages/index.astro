@@ -57,6 +57,9 @@ import Card from '../components/Card.astro';
           <label for="phone">Phone</label>
 					<span class="helper-text" data-error="Please enter phone number"></span>
         </div>
+				<div class="col s12">
+					<p class="small-text">* We value your privacy and will treat your personal details with the utmost care and respect.</p>
+				</div>
      </div>
 		 <button class="btn waves-effect waves-light" type="submit" name="action">Submit
     	<i class="material-icons right">send</i>
@@ -81,6 +84,10 @@ import Card from '../components/Card.astro';
 		margin: auto;
 		padding: 1em;
 		max-width: 60ch;
+	}
+
+	.small-text {
+		font-size: 12px;
 	}
 
 	.text-gradient {
